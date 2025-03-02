@@ -14,5 +14,9 @@ namespace OOP
         public string color;
         public string poroda;
 
+        public int tail;
+
+        public void SetTailLength
+
     }
 }
