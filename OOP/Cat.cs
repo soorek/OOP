@@ -16,7 +16,18 @@ namespace OOP
 
         public int tail;
 
-        public void SetTailLength
+        public void SetTailLength(int x)
+        {
+            if ((x > 5)&(x < 50))
+            {
+                tail = x;
+            }
+        }
+
+        public void GetTailLength()
+        {
+            Console.WriteLine($"Длина хвоста - {tail} сантиметров");
+        }
 
     }
 }

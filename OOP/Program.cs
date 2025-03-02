@@ -17,3 +17,14 @@ murka.poroda = "бенгальская";
 moska.height = 35;
 
 
+moska.SetTailLength(10);
+murka.SetTailLength(20);
+
+moska.GetTailLength();
+murka.GetTailLength();
+
+
+Child molodoi_chelovek = new Child();
+molodoi_chelovek.SetName("petechka");
+
+
